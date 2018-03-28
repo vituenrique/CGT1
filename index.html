@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trabalho 1 - Computação Gráfica</title>
+		<link rel="stylesheet" href="canvas.css">
+	</head>
+	<body onload="getCanvas()">
+		<canvas id="canvas" width="500" height="300"></canvas>
+
+		<div id="container">    
+	        <input type="file" accept="text/plain" onchange="openFile(event)"/>
+	        <br/>
+	        <hr/>
+	        <button onclick="drawFile()"> Draw file </button>
+	        <button onclick="clearCanvas()"> Clear canvas </button>
+	    </div>
+	</body>
+</html>
+<script type="text/javascript" src="canvas.js"></script>
